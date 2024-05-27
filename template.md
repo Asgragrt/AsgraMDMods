@@ -1,8 +1,7 @@
 # Asgra's Muse Dash Mods
 
-{% set basePinURL = 'https://github-readme-stats-asgra.vercel.app/api/pin/?username=asgragrt&repo={}&theme=vision-friendly-dark' %}
+{% set basePinURL = '<https://github-readme-stats-asgra.vercel.app/api/pin/?username=asgragrt&repo={}&theme=vision-friendly-dark>' %}
 {% set basePinTemplate = '[![{}]({})]({})' %}
-
 | Mod Name | Pin |
 | --- | --- |
 {% for mod in mods.mods %}
